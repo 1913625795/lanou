@@ -13,6 +13,7 @@ import redis.clients.jedis.Jedis;
 public class Demo2 {
     private Jedis jedis; 
     private int a;
+    private int b;
     @Before
     public void setup() {
         //连接redis服务器，127.0.0.1:6379
